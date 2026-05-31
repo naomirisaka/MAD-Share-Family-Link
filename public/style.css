@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #F3F5F7;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+h1 {
+  color: #0B4778;
+  margin-bottom: 12px;
+}
+
+#codeBox {
+  margin: 24px 0;
+  padding: 16px;
+  background: #EBF5FF;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+#status {
+  color: #666;
+}
